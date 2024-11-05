@@ -27,3 +27,35 @@ console.log(indice);
 let frutas= ["maça", "banana", "uva"];
 let contemLaranja= frutas.includes("laranja")
 console.log(contemLaranja);
+
+let numeros = [1, 2, 3, 4];
+  let soma = 0;
+  for (let i = 0; i < numeros.length; i++) 
+    soma += numeros[i];
+  console.log (soma);
+
+let frutas= ["banana", "maça", "laranja"];
+let contemorango= frutas.includes("morango")
+console.log(contemorango);
+
+let linguagens=["JavaScript", "Python", "Java"];
+let posicao= linguagens.indexOf(1);
+console.log(posicao);
+
+
+let numeros = [2, 4, 6];
+for (let i = 0; i < numeros.length; i++) 
+numeros[i] *= 2;
+console.log(numeros);
+
+let sports= ["futebol","basquete", "natação"];
+let contemBeisebol= sports.includes("beisebol");
+console.log(contemBeisebol);
+
+let frutas = ["maçã", "banana", "laranja"]; 
+let quantidade = frutas.length;
+console.log(quantidade);
+
+let cores=["azul", "verde", "vermelho","amarelo"];
+let posicao= cores.indexOf("vermelho");
+console.log(posicao);
